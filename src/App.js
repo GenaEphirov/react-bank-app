@@ -2,6 +2,7 @@ import React, {createContext} from "react";
 import "./style.css";
 import Header from './components/header/Header'
 import UpperSideBar from './components/uppersidebar/UpperSideBar'
+import Earnings from './components/earnings/Earnings'
 
 
 import getLanguage from './languagesAPI.js'
@@ -9,12 +10,13 @@ export const langContext = createContext(getLanguage('russian'))
 
 export default function App() {
   let uppersidebar = {
-    active: 'spendings',
+    active: 'earnings',
   };
   return (
     <langContext.Provider value={getLanguage('russian')}>
       <Header />
       <UpperSideBar {...uppersidebar}/>
+      <Earnings />
     </langContext.Provider>
   );
 }
