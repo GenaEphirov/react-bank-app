@@ -1,0 +1,25 @@
+section {
+  height: 35px;
+  background-color: blueviolet;
+}
+
+.container {
+  margin: 0 var(--container);
+  display: flex;
+  justify-content: space-between;
+}
+
+.container button {
+  border: none;
+  width: 34%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--lightpurple);
+}
+
+.earnings {
+  background-color: black;
+  color: white;
+}

@@ -1,24 +1,10 @@
-.mobilephone {
-  display: flex;
-  margin-bottom: 5px;
-}
-
-.mobilephone img {
-  height: 18px;
-  width: auto;
-}
-
-.mobilephone span {
-  word-wrap: inherit;
-}
-
 header {
   height: 60px;
   background-color: white;
 }
 
 .container {
-  margin: 0 200px;
+  margin: 0 var(--container);
   display: flex;
   justify-content: space-between;
 }

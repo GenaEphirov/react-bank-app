@@ -6,8 +6,13 @@ const translation = {
       main: 'Главная',
       support: 'Поддержка',
       officies: 'Офисы',
-    }
-  }
+    },
+    uppersidebar: {
+      spendings: "Расходы",
+      earnings: "Доходы",
+      settings: "Настройки",
+    },
+  },
 }
 
 const getLanguage = lang => {
