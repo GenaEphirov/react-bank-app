@@ -1,11 +1,15 @@
-/* static signs to set position by hand */
-
-#mobilephone1 {
-
+.mobilephone {
+  display: flex;
+  margin-bottom: 5px;
 }
 
-#mobilephone2 {
+.mobilephone img {
+  height: 18px;
+  width: auto;
+}
 
+.mobilephone span {
+  word-wrap: inherit;
 }
 
 header {
@@ -23,10 +27,6 @@ header {
   display: flex;
   align-items: center;
 }
-.right {
-  display: flex;
-  align-items: center;
-}
 
 .btn {
   font-family: system-ui;
@@ -34,7 +34,6 @@ header {
   font-size: 16px;
   transform: translateY(3px);
   padding: 2px 16px 4px;
-  margin-left: 16px;
   background-color: white;
   border: 3px solid var(--purple);
   border-radius: 20px;
@@ -51,19 +50,38 @@ header {
   height: 50px;
 }
 
+.main {
+  margin-left: 16px;
+}
+
 .main a {
   text-decoration: none;
   color: white;
 }
 
-.profile a {
+.support {
+  margin-left: 16px;
+}
 
-  padding: 0 3px;
+.officies {
+  margin-left: 16px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(3px);
+}
+
+.profile a {
+  overflow: hidden;
   border: 3px solid var(--purple);
   border-radius: 20px;
 }
 
 .profile a img {
+  transform: translateY(5px);
   height: 30px;
   width: auto;
 }
