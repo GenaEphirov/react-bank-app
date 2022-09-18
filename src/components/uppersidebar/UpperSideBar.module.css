@@ -9,17 +9,12 @@ section {
   justify-content: space-between;
 }
 
-.container button {
-  border: none;
-  width: 34%;
-  cursor: pointer;
-}
-
 .active {
-  background-color: var(--lightpurple);
-}
-
-.earnings {
-  background-color: black;
   color: white;
+}
+.container button {
+  background-color: blueviolet;
+  width: 34%;
+  height: 35px;
+  cursor: pointer;
 }

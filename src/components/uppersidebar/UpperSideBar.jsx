@@ -10,9 +10,9 @@ const UpperSideBar = props => {
   return (
     <section>
       <div className={style.container}>
-        <button className={props.active === 'earnings' ? style.earnings : style.earnings + " active"}><span>{langBlock.earnings}</span></button>
-        <button className={style.spendings}><span>{langBlock.spendings}</span></button>
-        <button className={style.settings}><span>{langBlock.settings}</span></button>
+        <button className={props.active === 'earnings' ? style.active : ''}><span>{langBlock.earnings}</span></button>
+        <button className={props.active === 'spendings' ? style.active : ''}><span>{langBlock.spendings}</span></button>
+        <button className={props.active === 'settings' ? style.active : ''}><span>{langBlock.settings}</span></button>
       </div>
     </section>
   )

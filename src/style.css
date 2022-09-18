@@ -1,9 +1,7 @@
 /* declaring global constants to use inside module.css files */
 :root {
   --purple: #462591;
-  --lightpurple: #4e3096;
-  --lighterpurple: #5f40a8;
-  --lightestpurple: #7051b9;
+  --active: #9e36ff;
   --container: 200px;
 }
 
