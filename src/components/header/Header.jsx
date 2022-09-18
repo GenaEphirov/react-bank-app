@@ -5,8 +5,11 @@ import {langContext} from './../../App.js'
 const Header = props => {
   const lang = useContext(langContext)
   const langBlock = lang.header;
+  // let values = [...props];
+  // console.log(values)
   return (
     <header>
+      <div className={style.mobilephone1}><img src="" alt=""/><span></span></div>
       <div className={style.container}>
         <div className={style.left}>
           <div className={style.logo}>

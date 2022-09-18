@@ -1,5 +1,16 @@
+/* static signs to set position by hand */
+
+#mobilephone1 {
+
+}
+
+#mobilephone2 {
+
+}
+
 header {
   height: 60px;
+  background-color: white;
 }
 
 .container {
@@ -43,9 +54,6 @@ header {
 .main a {
   text-decoration: none;
   color: white;
-}
-
-.profile {
 }
 
 .profile a {
