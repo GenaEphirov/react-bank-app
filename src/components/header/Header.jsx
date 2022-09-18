@@ -5,8 +5,6 @@ import {langContext} from './../../App.js'
 const Header = props => {
   const lang = useContext(langContext)
   const langBlock = lang.header;
-  // let values = [...props];
-  // console.log(values)
   return (
     <header>
       
