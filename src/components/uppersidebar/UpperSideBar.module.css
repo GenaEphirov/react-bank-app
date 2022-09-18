@@ -10,11 +10,18 @@ section {
 }
 
 .active {
-  color: white;
+  color: black !important;
+  background-color: #d4a6ff !important;
 }
 .container button {
   background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 8px;
   width: 34%;
   height: 35px;
   cursor: pointer;
+}
+.container button span {
+  font-size: 20px;
 }

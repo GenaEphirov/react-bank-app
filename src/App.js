@@ -9,7 +9,7 @@ export const langContext = createContext(getLanguage('russian'))
 
 export default function App() {
   let uppersidebar = {
-    active: 'earnings',
+    active: 'spendings',
   };
   return (
     <langContext.Provider value={getLanguage('russian')}>

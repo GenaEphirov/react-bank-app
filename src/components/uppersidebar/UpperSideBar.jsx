@@ -6,7 +6,6 @@ import {langContext} from './../../App.js'
 const UpperSideBar = props => {
   const lang = useContext(langContext);
   const langBlock = lang.uppersidebar;
-  let a = props.active;
   return (
     <section>
       <div className={style.container}>
